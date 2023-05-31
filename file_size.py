@@ -36,7 +36,7 @@ def format_size(size):
     return f"{size:.2f} TB"
 
 if __name__ == "__main__":
-    folder_path = r"C:\Users\oceanstellar\Desktop\工作\看matlab代码\backup"
+    folder_path = r"C:\Users\你的文件夹xxx"
     num_files = 5
     print_folder_sizes(folder_path)
     print(f"\nTop {num_files} largest files:")
